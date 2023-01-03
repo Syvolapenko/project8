@@ -1,8 +1,10 @@
-public class Triangle implements Shape{
+package M8H1;
+
+public class Pentagon implements Shape{
     private String name ;
 
-    public Triangle() {
-        name = "triangle";
+    public Pentagon() {
+        name = "pentagon";
     }
 
     public String getName() {

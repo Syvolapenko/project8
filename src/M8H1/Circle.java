@@ -1,8 +1,10 @@
-public class Rectangle implements Shape {
+package M8H1;
+
+public class Circle implements Shape {
     private String name ;
 
-    public Rectangle() {
-        name = "rectangle";
+    public Circle() {
+    name = "circle";
     }
 
     public String getName() {
@@ -14,4 +16,3 @@ public class Rectangle implements Shape {
         System.out.println("I'm a " + name);
     }
 }
-

@@ -1,8 +1,10 @@
-public class Quad implements Shape {
-    private String name;
+package M8H1;
 
-    public Quad() {
-        name = "quad";
+public class Rectangle implements Shape {
+    private String name ;
+
+    public Rectangle() {
+        name = "rectangle";
     }
 
     public String getName() {
@@ -14,3 +16,4 @@ public class Quad implements Shape {
         System.out.println("I'm a " + name);
     }
 }
+

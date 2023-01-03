@@ -1,8 +1,10 @@
-public class Circle implements Shape {
-    private String name ;
+package M8H1;
 
-    public Circle() {
-    name = "circle";
+public class Quad implements Shape {
+    private String name;
+
+    public Quad() {
+        name = "quad";
     }
 
     public String getName() {
